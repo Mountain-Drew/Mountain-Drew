@@ -1,9 +1,6 @@
-# Scenario
-# Hurricanes can wreak havoc when they make landfall; they can cause deaths and 
-# monetary damage, so we want to explore what has happened in the past. We've 
-# got some data stored in a comma-separated-values file; only read_file needs to
-# interact with files, and all others will use our required structure to 
-# describe storms and overall databases of storms.
+# This is my solution to the final project of my first programming class in 
+# university. The code reads a CSV file, assigns those values to variables, and
+# returns a sorted list depending on which function is called.
 
 # creates a dictionary with years as the keys and lists as the values containing
 # tuples detailing storms and their data for that year
