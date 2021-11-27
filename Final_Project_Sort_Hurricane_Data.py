@@ -2,6 +2,12 @@
 # university. The code reads a CSV file, assigns those values to variables, and
 # returns a sorted list depending on which function is called.
 
+# An example of a CSV file fed to this program:
+# YEAR,NAME,MinPressure,Gender,CATEGORY,deaths,DamageMillions
+# 1992,Andrew,922,M,5,62,66730
+# 2012,Isaac,966,M,1,5,24000
+# 2012,Sandy,942,F,2,159,75000
+
 # creates a dictionary with years as the keys and lists as the values containing
 # tuples detailing storms and their data for that year
 def read_file(filename):
